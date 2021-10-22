@@ -15,3 +15,4 @@ Open [http://localhost:3000/homepage](http://localhost:3000) to view it in the b
 
 - styled-components: For styling paddle app
 - react-router-dom: For navigating between components
+- react-icons
