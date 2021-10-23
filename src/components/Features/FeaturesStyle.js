@@ -53,6 +53,7 @@ export const FeatureList = styled.div`
 `;
 export const Item = styled.div`
 display: flex;
+align-items: center;
 gap: 14.2px;
 margin-bottom: 26px;
 `;
