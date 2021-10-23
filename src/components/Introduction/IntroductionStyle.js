@@ -21,6 +21,7 @@ export const InfoText = styled.div`
   height: 508px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   padding-top: 120px;
   gap: 20px;
 `;
