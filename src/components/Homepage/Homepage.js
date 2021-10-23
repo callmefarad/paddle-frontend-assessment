@@ -4,6 +4,8 @@ import Introduction from "../Introduction/Introduction"
 import Features from "../Features/Features"
 import Plan from "../Plans/Plans"
 import GetStarted from "../GetStarted/GetStarted";
+import Customer from "../Customers/Customers"
+import Footer from "../Footer/Footer"
 import { Wrapper } from "./HomepageStyle";
 
 const Homepage = () => {
@@ -14,6 +16,8 @@ const Homepage = () => {
       <Features />
       <Plan />
       <GetStarted />
+      <Customer />
+      <Footer />
     </Wrapper>
   );
 };
