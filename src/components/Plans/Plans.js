@@ -5,7 +5,9 @@ import {
   PlanBody,
   ChoosePlan,
   PlanDesc,
-  PlanPrice,
+  PlanPrice1,
+  PlanPrice2,
+  PlanPrice3,
   PlanImage,
   PlanValues,
   PricePack,
@@ -37,7 +39,7 @@ const Plans = () => {
         </PlanDesc>
       </PlanHead>
       <PlanBody>
-        <PlanPrice>
+        <PlanPrice1>
           <PlanImage>
             <img
               src={PriceImage}
@@ -74,8 +76,8 @@ const Plans = () => {
               <ButtonText>select</ButtonText>
             </PriceButton>
           </PricePack>
-        </PlanPrice>
-        <PlanPrice>
+        </PlanPrice1>
+        <PlanPrice2>
           <PlanImage>
             <img
               src={PriceImage2}
@@ -116,8 +118,8 @@ const Plans = () => {
               <ButtonText>select</ButtonText>
             </PriceButton>
           </PricePack2>
-        </PlanPrice>
-        <PlanPrice>
+        </PlanPrice2>
+        <PlanPrice3>
           <PlanImage>
             <img
               src={PriceImage3}
@@ -162,7 +164,7 @@ const Plans = () => {
               <ButtonTextActive>select</ButtonTextActive>
             </PriceButtonActive>
           </PricePack3>
-        </PlanPrice>
+        </PlanPrice3>
       </PlanBody>
     </Wrapper>
   );

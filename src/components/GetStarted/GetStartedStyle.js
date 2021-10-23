@@ -7,7 +7,6 @@ display: flex;
 flex-direction: column;
 align-items: center;
 align-self: center;
-margin-bottom: 75px;
 `;
 export const GetStartedIntro = styled.div`
   /* background-color: green; */
@@ -37,11 +36,11 @@ export const GetStartedButton = styled.div`
   align-items: center;
   width: 266.81px;
   height: 67.5px;
-  top: 476.77px;
   background: #ba55d3;
   border-radius: 4px;
   box-shadow: rgba(186, 85, 211, 0.35) 0px 35px 44px;
   cursor: pointer;
+  margin-top: 20px;
 `;
 export const StartToday = styled.div`
   font-family: Rubik;

@@ -43,7 +43,7 @@ export const PlanBody = styled.div`
   align-items: center;
   gap: 50px;
 `;
-export const PlanPrice = styled.div`
+export const PlanPrice1 = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -52,6 +52,41 @@ export const PlanPrice = styled.div`
   border-radius: 10px;
   width: 330px;
   height: 760px;
+  cursor: pointer;
+
+  &:hover {
+    border: 2px solid #ba55d3;
+  }
+`;
+export const PlanPrice2 = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #dddddd;
+  box-sizing: border-box;
+  border-radius: 10px;
+  width: 330px;
+  height: 760px;
+  cursor: pointer;
+
+  &:hover {
+    border: 2px solid #ba55d3;
+  }
+`;
+export const PlanPrice3 = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 330px;
+  height: 760px;
+  border: 2px solid #ba55d3;
+  box-sizing: border-box;
+  border-radius: 10px;
+  cursor: pointer;
+
+  &:hover {
+    border: 2px solid #ba55d3;
+  }
 `;
 export const PlanImage = styled.div`
   margin-top: 45.45px;
