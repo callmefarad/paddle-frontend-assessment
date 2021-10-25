@@ -8,7 +8,7 @@ import {
     GetStartedSponsors,
   
 } from "./GetStartedStyle";
-import Sponsord from "../assets/images/Sponsored.png"
+import Sponsord from "../../../assets/images/Sponsored.png"
 
 const GetStarted = () => {
   return (
@@ -24,7 +24,7 @@ const GetStarted = () => {
         <StartToday>start today</StartToday>
       </GetStartedButton>
       <GetStartedSponsors>
-        <img src={Sponsord} alt="no image" />
+        <img src={Sponsord} maxWidth="auto" maxHeight="auto" objectFit="cover" alt="no image" />
       </GetStartedSponsors>
     </Wrapper>
   );

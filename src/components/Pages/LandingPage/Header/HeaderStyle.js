@@ -7,6 +7,7 @@ export const Wrapper = styled.div`
   flex-direction: column;
   /* height: 80px; */
   width: 100vw;
+
 `;
 export const Container = styled.div`
   background-color: inherit;
@@ -55,7 +56,7 @@ export const Testimonials = styled.div`
   cursor: pointer;
 `;
 export const Access = styled.div`
-/* background-color: grey; */
+  /* background-color: grey; */
   display: flex;
   justify-content: space-around;
   align-items: center;

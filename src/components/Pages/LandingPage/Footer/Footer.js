@@ -38,7 +38,7 @@ const Footer = () => {
       </PageLinks>
       <PageLinks>
         <Products>Earn Money</Products>
-        <Item1>Ultrices </Item1>
+        <Item1>Ultrices</Item1>
         <Item1> Fusce</Item1>
       </PageLinks>
     </Wrapper>

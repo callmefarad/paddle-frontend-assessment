@@ -23,9 +23,9 @@ import {
   PriceButtonActive,
   ButtonTextActive,
 } from "./PlanStyle";
-import PriceImage from "../assets/images/pricing3.png";
-import PriceImage2 from "../assets/images/pricing2.png";
-import PriceImage3 from "../assets/images/pricing1.png";
+import PriceImage from "../../../assets/images/pricing3.png";
+import PriceImage2 from "../../../assets/images/pricing2.png";
+import PriceImage3 from "../../../assets/images/pricing1.png";
 import { BsCheck } from "react-icons/bs";
 
 const Plans = () => {

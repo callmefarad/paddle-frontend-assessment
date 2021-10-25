@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 
 export const Wrapper = styled.div`
+/* background-color: gold; */
   display: flex;
   justify-content: space-around;
   margin-top: 100px;
@@ -9,6 +10,10 @@ export const Wrapper = styled.div`
   width: 80%;
   align-self: center;
   /* gap: 30px; */
+
+  @media screen and (max-width: 768px){
+    flex-direction: column;
+  }
 `;
 export const FeaturesImage = styled.div`
   width: 65%;
@@ -17,6 +22,9 @@ export const FeaturesImage = styled.div`
   align-items: center;
   /* background-color: green; */
   align-self: center;
+
+  @media screen and (max-width: 768px) {
+  }
 `;
 export const FeaturesDesc = styled.div`
   display: flex;
@@ -27,13 +35,39 @@ export const FeaturesDesc = styled.div`
   padding-right: 50px;
 `;
 export const FeatureCaption = styled.div`
+  /* background-color: green; */
   font-family: Rubik;
   font-style: normal;
   font-weight: bold;
-  font-size: 35px;
-  line-height: 50px;
+  font-size: 45px;
   color: #0b132a;
   text-transform: capitalize;
+
+  p {
+    padding-right: "900px";
+  }
+
+  @media screen and (max-width: 1024px) {
+    p {
+      text-align: center;
+    }
+    font-size: 35px;
+    line-height: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  @media screen and (max-width: 768px) {
+    font-size: 30px;
+    line-height: 40px;
+    display: flex;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  @media screen and (max-width: 425px) {
+    font-size: 30px;
+  }
 `;
 export const FeatureIntro = styled.div`
   margin-top: 20px;

@@ -1,5 +1,5 @@
 import React from "react";
-import FeatImage from "../assets/images/feature.png";
+import FeatImage from "../../../assets/images/feature.png";
 import {
   Wrapper,
   FeaturesImage,
@@ -28,7 +28,7 @@ const Features = () => {
       </FeaturesImage>
       <FeaturesDesc>
         <FeatureCaption>
-          <p style={{ paddingRight: "90px" }}>
+          <p>
             features we provide for you
           </p>
         </FeatureCaption>

@@ -8,6 +8,22 @@ export const Wrapper = styled.div`
   align-self: center;
   align-items: center;
   margin-bottom: 150px;
+
+  @media screen and (max-width: 1024px) {
+    margin-bottom: 100px;
+  }
+
+  @media screen and (max-width: 768px) {
+    margin-bottom: 80px;
+  }
+
+  @media screen and (max-width: 425px) {
+    margin-bottom: 60px;
+  }
+
+  @media screen and (max-width: 320px) {
+    margin-bottom: 60px;
+  }
 `;
 export const PlanHead = styled.div`
   display: flex;
@@ -17,6 +33,7 @@ export const PlanHead = styled.div`
   width: 555px;
 `;
 export const ChoosePlan = styled.div`
+/* background-color: gold; */
   font-family: Rubik;
   font-style: normal;
   font-weight: bold;
@@ -36,12 +53,22 @@ export const PlanDesc = styled.div`
   text-align: center;
   color: #4f5665;
   margin-bottom: 60px;
+
+  @media screen and (max-width: 1024px) {
+    width: 350px;
+    align-self: center;
+  }
 `;
 export const PlanBody = styled.div`
+/* background-color: gold; */
   display: flex;
   justify-content: space-around;
   align-items: center;
   gap: 50px;
+
+  @media screen and (max-width: 1024px) {
+    flex-direction: column;
+  }
 `;
 export const PlanPrice1 = styled.div`
   display: flex;

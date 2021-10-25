@@ -18,7 +18,7 @@ import {
   Backward,
   Forward,
 } from "./CustomerStyle";
-import eclipse from "../assets/images/Ellipse 175.png";
+import eclipse from "../../../assets/images/Ellipse 175.png";
 import { MdStar, MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const Customers = () => {

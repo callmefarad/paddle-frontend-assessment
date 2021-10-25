@@ -16,7 +16,7 @@ import {
   Line,
   Text,
 } from "./IntroductionStyle";
-import SampleImage from "../assets/images/web-developer1.png";
+import SampleImage from "../../../assets/images/web-developer1.png";
 import { BsFillPersonFill } from "react-icons/bs";
 import { BsFillGeoAltFill } from "react-icons/bs";
 import { BsFillHddStackFill } from "react-icons/bs";
@@ -40,7 +40,6 @@ const Introduction = () => {
           <img
             src={SampleImage}
             style={{
-              //   height: "508px",
               width: "100%",
               objectFit: "cover",
             }}
